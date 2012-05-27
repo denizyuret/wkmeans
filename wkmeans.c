@@ -15,7 +15,7 @@ const char *usage = "wkmeans [options] < input > output\n"
   "-s random seed\n"
   "-l input file contains labels\n"
   "-w input file contains instance weights\n"
-  "-b select the best clustering criteria. Set 'i' for in-cluster, 'io' for in-cluster/out-cluster score. (default i)"
+  "-b cluster selection criteria. Set 'i' for in-cluster, 'io' for in-cluster/out-cluster score. (default i)\n"
   "-v verbose output\n";
 
 #include <stdio.h>
